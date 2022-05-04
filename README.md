@@ -1,56 +1,10 @@
-# Project Three
+CHANGES!!!!!!!
 
-https://podcastsapp.netlify.app/
-
-## Table of Contents:
-
-<li>Project Overview</li>
-<li>The Brief</li>
-<li>Technologies USed</li>
-<li>Approach Taken - (screenshots and featured code)</li>
-<li>Wins and Blockers</li>
-<li>Bugs</li>
-<li>Future Content and Improvements</li>
-<li>Key Learnings</li>
-
-<hr>
-
-## Project Overview
-
-This project consisted of building a custom backend API and frontend website/app using React. This was my first project using MERN (mongoDB, express, react, node). Our team of three had 9 days to build this app. 
-
-
-## The Brief
-
-<li>Build a full-stack application by making your own back-end and your own front-end
-<li>Use an Express API to serve your data from a Mongo database
-<li>Consume your API with a separate front-end built with React
-<li>Be a complete product which most likely means multiple relationships and CRUD operators for at least a couple of models
-<li>Implement thoughtful user stories/wireframes that are significant enough to help you know which features are core MVP and which you can cut
-<li>Be deployed online so it's publicly accessible.
-
-## Technologies Used
-
-### Back-end:
-<li>Node.js</li>
-<li>Mongodb</li>
-<li>Express</li>
-<li>Bcrypt</li>
-<li>Body-parser</li>
-<li>Mongoose</li>
-<li>jsonwebtoken</li>
-
-### Frontend:
-<li>React</li>
-<li>Axios</li>
-<li>Bulma</li>
-<li>SCSS</li>
-<li>Http-proxy-middleware</li>
 <li>Nodemon</li>
 <li>React Router Dom</li>
 
-
 ### Development tools:
+
 <li>VS code</li>
 <li>NPM</li>
 <li>Insomnia</li>
@@ -65,10 +19,9 @@ This project consisted of building a custom backend API and frontend website/app
 
 ### Day 1
 
-Our team of three quickly settled on the idea of building a podcast website where users could register, login, create and like their own podcasts. Using Trello board and excalidraw we were able to plan out our ideas and divide up the tasks. The Trello board was especially useful when trying to see our progress and what was still missing. Excalidraw was used to visualise our idea better.  
+Our team of three quickly settled on the idea of building a podcast website where users could register, login, create and like their own podcasts. Using Trello board and excalidraw we were able to plan out our ideas and divide up the tasks. The Trello board was especially useful when trying to see our progress and what was still missing. Excalidraw was used to visualise our idea better.
 
 <img src="./screenshotEx.png" alt="excali" width="500"/>
-
 
 ## Day 2 - 3
 
@@ -111,7 +64,7 @@ Our team decided to finish the backend completly first before starting the front
 
 ## Day 4 - 9
 
-We started working on the front end fairly swiftly without having had too many git merge conflicts in the previous days. I was in charge of dividing up the tasks fairly and to each members' strengths. I created the MyPodcasts.js, Navbar.js, NewPodcast.js, SearchByName.js and the EditPodcast.js. During this time we tried to git merge as often as possible to make sure we had as few bugs and conflicts with our app (since the page would completely shut down for one slightly off element). In the final couple of days we had to play catch up with Bulma and styling since we weren't all quite comfortable with Bulma. Communication was a key part of this project as well as offering support to our teammates. Once finished with our project I deployed it using Netlify. One piece of code that I was particularily pleased about was the authentication file where I learnt and developed my understanding of Axios. 
+We started working on the front end fairly swiftly without having had too many git merge conflicts in the previous days. I was in charge of dividing up the tasks fairly and to each members' strengths. I created the MyPodcasts.js, Navbar.js, NewPodcast.js, SearchByName.js and the EditPodcast.js. During this time we tried to git merge as often as possible to make sure we had as few bugs and conflicts with our app (since the page would completely shut down for one slightly off element). In the final couple of days we had to play catch up with Bulma and styling since we weren't all quite comfortable with Bulma. Communication was a key part of this project as well as offering support to our teammates. Once finished with our project I deployed it using Netlify. One piece of code that I was particularily pleased about was the authentication file where I learnt and developed my understanding of Axios.
 
     import axios from 'axios';
 
@@ -156,18 +109,18 @@ We started working on the front end fairly swiftly without having had too many g
 
 ## Wins and Blockers
 
-A big win for me and the team was the development, of us as individuals, of our communication skills as coders. Our planning also played a major part as to why we managed to achieve our goals and even push for some stretch goals. 
+A big win for me and the team was the development, of us as individuals, of our communication skills as coders. Our planning also played a major part as to why we managed to achieve our goals and even push for some stretch goals.
 
 One blocker that I noticed was our lack of skills in styling with Bulma and trying to reconcile our views as a team of what the styling theme should look like. Another blocker was the struggle I had with creating a like button for the podcasts which required some professional guidance.
 
-## Bugs 
+## Bugs
 
 Perhaps not necessarily a bug but more of a hinderance is the lack of pop up when entering your password or email wrong when logging in as well as for when registering. Another 'bug' but maybe not entirely problematic is that the page is slow to load when displaying all the podcasts.
 
- ## Future Content and Improvements
+## Future Content and Improvements
 
-A major improvement can be implementing more notifications when registering with a weak password or with a username that already exists. I could also optimize our styling better as well to make the flow of the navigation smoother. 
+A major improvement can be implementing more notifications when registering with a weak password or with a username that already exists. I could also optimize our styling better as well to make the flow of the navigation smoother.
 
- ## Key Learnings
+## Key Learnings
 
- Communication and planning were the number one aspects I learnt from this project. Without these two things, a team of three with different views and opinions can very quickly become a chaotic playground with no foundation. I learnt a lot about how the backend API works with MongoDB and how to create secure routes inside the CRUD operators.
+Communication and planning were the number one aspects I learnt from this project. Without these two things, a team of three with different views and opinions can very quickly become a chaotic playground with no foundation. I learnt a lot about how the backend API works with MongoDB and how to create secure routes inside the CRUD operators.
