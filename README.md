@@ -1,27 +1,20 @@
-CHANGES!!!!!!!
+## Project Overview
 
-<li>Nodemon</li>
-<li>React Router Dom</li>
+This was the third project of the GA Software Engineering Immersive course. I was grouped with two colleagues and we quickly decided that a podcast app would be a good product to deliver which hit the brief we had been given. We all had a mutual interest in and were keen listeners of podcasts.
 
-### Development tools:
+[Enter Site Here](https://podcastsapp.netlify.app/)
 
-<li>VS code</li>
-<li>NPM</li>
-<li>Insomnia</li>
-<li>Git</li>
-<li>Github</li>
-<li>Google Chrome dev tools</li>
-<li>Heroku (deployment)</li>
-<li>Trello Board (planning and timeline)</li>
-<li>Excalidraw (wireframing)</li>
+### Technologies Used
 
-## Approach Taken
+VS code, NPM, Nodemon, Express, MongoDB, Postman, Git, JavaScript React & associated packages, React Router Dom Github, Google Chrome dev tools, Heroku (deployment), Trello Board (planning and timeline), Excalidraw
 
-### Day 1
+### The Process
 
-Our team of three quickly settled on the idea of building a podcast website where users could register, login, create and like their own podcasts. Using Trello board and excalidraw we were able to plan out our ideas and divide up the tasks. The Trello board was especially useful when trying to see our progress and what was still missing. Excalidraw was used to visualise our idea better.
+#### Day 1
 
-<img src="./screenshotEx.png" alt="excali" width="500"/>
+After settling ona podcast theme for our project we started by designing wireframes and objectives using excalidraw this helped us have a clear objective for what we wanted to deliver as our minimal viable product and also our stretch goals (time limits permitting). This was oour initial introduction to Trello which was ivaluable for organising, compiling and delegating work
+
+<img src="./wireframe.png" alt="excalidraw" width="700"/>
 
 ## Day 2 - 3
 
@@ -107,20 +100,10 @@ We started working on the front end fairly swiftly without having had too many g
       return data.message;
     };
 
-## Wins and Blockers
+### Reflections & Additional Future Goals
 
-A big win for me and the team was the development, of us as individuals, of our communication skills as coders. Our planning also played a major part as to why we managed to achieve our goals and even push for some stretch goals.
+Although I'm happy with what we achieved as a team, I believe we could have implemented even more security regarding th password, by requiring capitalisation plus a combination of words and letters. I also personally wanted to implement pagination or a carousel to improve the user experince. At the moment all of the podcasts appear on one page, so when the number of podcast becomes larger navigation will become more difficult.
 
-One blocker that I noticed was our lack of skills in styling with Bulma and trying to reconcile our views as a team of what the styling theme should look like. Another blocker was the struggle I had with creating a like button for the podcasts which required some professional guidance.
+Key learnings from this project were the importance of planning and delegating work. This was the first time I had worked with Trello and I found it really helpful to work through the tickets methodically as a team. This was also the second time using GitHub and I feel I gained invaluable experience using something which is a standard in the industry and absolutely necessary when working in teams. This was also a chance for us to cement what we had learnt about backend development specifically secure routes and JWT token authentification, a subject I found conceptually quite difficult to grasp.
 
-## Bugs
-
-Perhaps not necessarily a bug but more of a hinderance is the lack of pop up when entering your password or email wrong when logging in as well as for when registering. Another 'bug' but maybe not entirely problematic is that the page is slow to load when displaying all the podcasts.
-
-## Future Content and Improvements
-
-A major improvement can be implementing more notifications when registering with a weak password or with a username that already exists. I could also optimize our styling better as well to make the flow of the navigation smoother.
-
-## Key Learnings
-
-Communication and planning were the number one aspects I learnt from this project. Without these two things, a team of three with different views and opinions can very quickly become a chaotic playground with no foundation. I learnt a lot about how the backend API works with MongoDB and how to create secure routes inside the CRUD operators.
+![](./podcastdemo.gif)
