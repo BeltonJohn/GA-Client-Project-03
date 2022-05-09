@@ -25,7 +25,7 @@ I helped build and test the CRUD operators for the podcast, comments and user ac
 
 We quickly moved onto frontend functionality and I built a secure registration and login function with React. I found this quite useful in helping me reinforce my knowledge of the relationships between the frontend and backend and how they 'talk' as well as how Axios promises are used to make HTTP requests. Below is a piece of code which was a bit of a "light-bulb" moment for me.
 
-<img src="./axios.png" alt="axios" width="500"/>
+<img src="./axios.png" alt="axios" width="300"/>
 
 As one of my colleagues had built the functionality to search for podcasts using different parameters I wanted to test how it worked and what the end result would be for the user. Therefore I wrote some seed data to populate the website. I continued to work on aesthetics and styling, thinking about user interaction and user experience. Originally the Create Podcast and Edit Podcast pages had an onChange handler for all the fields including 'genre'. I decided that it probably wouldn't be for th ebest to have an open ended field with countless possibilities for genres thereofre I changed this to a dropdown of preselelected categories and added a handleChange function.
 
