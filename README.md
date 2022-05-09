@@ -12,14 +12,14 @@ VS code, NPM, Nodemon, Express, MongoDB, Postman, Git, JavaScript React & associ
 
 #### Day 1
 
-After settling ona podcast theme for our project we started by designing wireframes and setting out features using excalidraw this helped us have a clear objective for what we wanted to deliver as our minimal viable product and also our stretch goals (time limits permitting). This was our first introduction to Trello which I found was ivaluable for organising, compiling and delegating work.
+After settling on a podcast theme for our project we started by designing wireframes and setting out required features using excalidraw this helped us have a clear objective for what we wanted to deliver as our minimal viable product and also our stretch goals (time limits permitting). This was our first introduction to Trello which I found was ivaluable for organising, compiling and delegating work.
 
 <img src="./wireframe.png" alt="excalidraw" width="900"/>
 
 #### Day 2 - 3
 
 As a team we decide that we wouldnt start on the frontend before the backend functionality was complete and thoroughly tested. We mob programmed a primitive backend very quickly. Although we used previous work as a reference and a lot of the code being relatively boilerplate, I personally feel like I learned a lot about how the secure route works and how those different components fit together.
-I helped build and test the CRUD operators for the creating and editing a podcast, creating and deleting comments as well as creating and deleting an acccount.
+I helped build and test the CRUD operators for the podcast, comments and user acccounts.
 
 ## Day 4 - 9
 
@@ -35,6 +35,6 @@ Although I'm happy with what we achieved as a team, I believe we could have impl
 
 Key learnings from this project were the importance of planning and delegating work. This was the first time I had worked with Trello and I found it really helpful to work through the tickets methodically as a team. This was also the second time using GitHub and I feel I gained invaluable experience using something which is a standard in the industry and absolutely necessary when working in teams. This was also a chance for us to cement what we had learnt about backend development specifically secure routes and JWT token authentification, a subject I found conceptually quite difficult to grasp.
 
-Another huge takeaway from this project was the necessity to follow a gramatically correct and logical naming convention for different fucntions and variables. As we took the first weekend off from any work Purely Podcast we came back to the code with some confusion as to what some variables and functions wer actually referring to. In future this is something I will always take into careful consideration.
+Another huge takeaway from this project was the necessity to follow a gramatically correct and logical naming convention for different functions and variables to provide clarity for myslef and anyone else who reads the code. As we took the first weekend off from any work on Purely Podcast, we came back to the code with some confusion as to what some variables and functions were actually referring to. In future this is something I will always take into careful consideration.
 
 ![](./podcastdemo.gif)
